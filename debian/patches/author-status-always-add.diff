@@ -1,0 +1,13 @@
+Index: tacacs-plus/do_author.c
+===================================================================
+--- tacacs-plus.orig/do_author.c	2014-07-14 17:23:01.882703543 +0200
++++ tacacs-plus/do_author.c	2014-07-14 17:23:58.762705502 +0200
+@@ -252,7 +252,7 @@
+ 	/* and install the new set of AV pairs as output */
+ 	data->output_args = out_args;
+ 	data->num_out_args = out_cnt;
+-	data->status = AUTHOR_STATUS_PASS_REPL;
++	data->status = AUTHOR_STATUS_PASS_ADD;
+ 	return(1); /* no more processing required */
+ 
+     case 3: /* deny, but return attributes and server-msg to NAS */

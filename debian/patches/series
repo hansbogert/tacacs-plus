@@ -1,2 +1,3 @@
 fix_hurd.patch
 extend_default_authentication.patch
+author-status-always-add.diff
